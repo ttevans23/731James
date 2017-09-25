@@ -61,6 +61,6 @@ function setDate() {
 
 function init(){
 	setInterval(setDate, mins(15));
-	setInterval(function(){ location.reload(true); }, hrs(4000));
+	setInterval(function(){ location.reload(true); }, mins(15));
 	setDate();
 }
